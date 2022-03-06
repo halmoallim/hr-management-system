@@ -17,6 +17,12 @@ ar:
         team_name: "إسم الفريق"
         goal_status: "الحالة"
         team_id: "الفريق"
+      team:
+        name: "الإسم"
+        description: "الوصف"
+        team_members: " البدأ"
+        team_lead: "الفريق"
+        division_id: "القسم"
 
   helpers:
     submit:
@@ -36,6 +42,12 @@ ar:
     back to goals: "الرجوع للأهداف"
     destroy this goal: "حذف الهدف"
     show this goal: "عرض معلومات الهدف"
+
+    new team: "فريق جديد"
+    edit this team: "تعديل"
+    back to teams: "الرجوع للأفرقة"
+    destroy this team: "حذف الفريق"
+    show this team: "عرض معلومات الفريق"
 
     show: "عرض"
     edit: "تعديل"
@@ -73,6 +85,16 @@ ar:
       team_name: "إسم الفريق"
       goal_status: "الحالة"
       team_id: "الفريق"
+    team:
+      team list: "قائمة الأفرقة"
+      New team: "فريق جديد"
+      Edit team: "تحديث معلومات الفريق"
+      name: "الإسم"
+      description: "الوصف"
+      team_members: " البدأ"
+      team_lead: "الفريق"
+      division_id: "القسم"
+
 
       
   
