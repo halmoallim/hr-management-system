@@ -1,0 +1,53 @@
+# this the English file 
+ar:
+  activerecord:
+    attributes:
+      employee:
+        name: "الإسم"
+        email: "الإيميل"
+        job: "الوظيفة"
+        salary: "الراتب"
+        employment_status: "الحالة"
+        team_id: "الفريق"
+
+  helpers:
+    submit:
+      create: "إنشاء"
+      update: "تحديث"
+      
+  
+  links:
+    new employee: "موظف جديد"
+    edit this employee: "تعديل"
+    back to employees: "الرجوع للموظفين"
+    destroy this employee: "حذف الموظف"
+    show this employee: "عرض معلومات الموظف"
+
+    show: "عرض"
+    edit: "تعديل"
+    destroy: "حذف"
+    
+  globals:
+    forms:
+      messages:
+        errors:
+          one error: "يوجد خطأ"
+          multiple errors: "%{count} يوجد العديد من الأخطاء"
+
+        
+  hello: "Hello world"
+  Welcome: "مرحبا"
+  models:
+    employee:
+      Employee list: "قائمة الموظفين"
+      New employee: "موظف جديد"
+      Edit employee: "تحديث المعلومات"
+      Create employee:  "إنشاء"
+      name: "الإسم"
+      email: "الإيميل"
+      job: "الوظيفة"
+      salary: "الراتب"
+      employment_status: "الحالة"
+      team_id: "الفريق"
+      
+  
