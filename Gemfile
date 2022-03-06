@@ -48,6 +48,7 @@ gem "bootsnap", require: false
 #for translation
 gem "rails-i18n"
 
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
