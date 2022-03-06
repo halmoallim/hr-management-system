@@ -28,11 +28,24 @@ ar:
         description: "الوصف"
         teams_names: " البدأ"
         manager: "الفريق"
+      user:
+        email: "الإيميل"
+        password: "كلمة المرور"
+        password_confirmation: "تأكيد كلمة المرور"
+        avatar: "الصورة الشخصية"
+
 
   helpers:
     submit:
       create: "إنشاء"
       update: "تحديث"
+  
+  devise:
+    registrations:
+      edit:
+        update: "تحديث"
+      new: 
+        sign_up: "إنشاء"
       
   
   links:
@@ -59,6 +72,12 @@ ar:
     back to divisions: "الرجوع للأقسام"
     destroy this division: "حذف القسم"
     show this division: "عرض معلومات القسم"
+
+    sign up: "تسجيل جديد"
+    sign in: "تسجيل الدخول"
+    sign out: "تسجيل الخروج"
+    cancle my account: "حذف حسابي"
+    back: "عودة"
 
 
     show: "عرض"
@@ -114,6 +133,13 @@ ar:
       description: "الوصف"
       teams_names: "الفرق"
       manager: "المدير"
+    user:
+      Sign Up: "تسجيل جديد"
+      min char: "أقل عدد الحروف"
+      edit user: "تعديل معلومات تسجيل الدخول"
+      empty: "دعها خالية في حال عدم الرغبة بتغيير كلمة المرور"
+      confirm: "ضع كلمة المرور الحالية لتأكيد تغيير كلمة المرور"
+      cancle: "حذف الحساب"
 
 
       
