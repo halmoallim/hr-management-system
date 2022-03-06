@@ -79,6 +79,18 @@ ar:
     cancle my account: "حذف حسابي"
     back: "عودة"
 
+    home: "الرئيسية"
+    show employees: "الموظفين"
+    show teams: "الفرق"
+    show targets: "الأهداف"
+    show division: "الأقسام"
+    sign up: "تسجيل جديد"
+    sign in: "تسجيل الدخول"
+    sign out: "تسجيل الخروج"
+    edit profile: "تعديل الحساب"
+
+
+
 
     show: "عرض"
     edit: "تعديل"
