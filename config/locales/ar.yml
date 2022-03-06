@@ -23,6 +23,11 @@ ar:
         team_members: " البدأ"
         team_lead: "الفريق"
         division_id: "القسم"
+      division:
+        name: "الإسم"
+        description: "الوصف"
+        teams_names: " البدأ"
+        manager: "الفريق"
 
   helpers:
     submit:
@@ -48,6 +53,13 @@ ar:
     back to teams: "الرجوع للأفرقة"
     destroy this team: "حذف الفريق"
     show this team: "عرض معلومات الفريق"
+    
+    new division: "قسم جديد"
+    edit this division: "تعديل"
+    back to divisions: "الرجوع للأقسام"
+    destroy this division: "حذف القسم"
+    show this division: "عرض معلومات القسم"
+
 
     show: "عرض"
     edit: "تعديل"
@@ -94,6 +106,14 @@ ar:
       team_members: " البدأ"
       team_lead: "الفريق"
       division_id: "القسم"
+    division:
+      division list: "قائمة الأقسام"
+      New division: "قسم جديد"
+      Edit division: "تحديث معلومات القسم"
+      name: "الإسم"
+      description: "الوصف"
+      teams_names: "الفرق"
+      manager: "المدير"
 
 
       
