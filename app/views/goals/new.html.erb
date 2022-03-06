@@ -1,9 +1,10 @@
-<h1>New goal</h1>
+<h1><%= t 'models.goal.New goal', default: 'New employee'%></h1>
+
 
 <%= render "form", goal: @goal %>
 
 <br>
 
 <div>
-  <%= link_to "Back to goals", goals_path, class:"btn btn-dark" %>
+  <%= link_to t('links.back to goals'), goals_path, class:"btn btn-dark" %>
 </div>

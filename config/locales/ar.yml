@@ -9,6 +9,14 @@ ar:
         salary: "الراتب"
         employment_status: "الحالة"
         team_id: "الفريق"
+      goal:
+        title: "الإسم"
+        description: "الوصف"
+        start_date: "تاريخ البدأ"
+        finish_date: "تاريخ الإنتهاء"
+        team_name: "إسم الفريق"
+        goal_status: "الحالة"
+        team_id: "الفريق"
 
   helpers:
     submit:
@@ -22,6 +30,12 @@ ar:
     back to employees: "الرجوع للموظفين"
     destroy this employee: "حذف الموظف"
     show this employee: "عرض معلومات الموظف"
+
+    new goal: "هدف جديد"
+    edit this goal: "تعديل"
+    back to goals: "الرجوع للأهداف"
+    destroy this goal: "حذف الهدف"
+    show this goal: "عرض معلومات الهدف"
 
     show: "عرض"
     edit: "تعديل"
@@ -41,13 +55,24 @@ ar:
     employee:
       Employee list: "قائمة الموظفين"
       New employee: "موظف جديد"
-      Edit employee: "تحديث المعلومات"
-      Create employee:  "إنشاء"
+      Edit employee: "تحديث معلومات الموظف"
       name: "الإسم"
       email: "الإيميل"
       job: "الوظيفة"
       salary: "الراتب"
       employment_status: "الحالة"
       team_id: "الفريق"
+    goal:
+      goal list: "قائمة الأهداف"
+      New goal: "هدف جديد"
+      Edit goal: "تحديث معلومات الهدف"
+      title: "الإسم"
+      description: "الوصف"
+      start_date: "تاريخ البدأ"
+      finish_date: "تاريخ الإنتهاء"
+      team_name: "إسم الفريق"
+      goal_status: "الحالة"
+      team_id: "الفريق"
+
       
   
