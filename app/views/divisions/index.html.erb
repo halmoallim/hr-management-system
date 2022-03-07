@@ -1,13 +1,13 @@
-<h1>Divisions List</h1>
+<h1><%= t 'models.division.division list'%></h1>
 
 <table class="table table-striped table-bordered table-hover">
 
   <thead class="table-dark">
   <tr>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Teams</th>
-    <th>Manager</th>
+    <th><%= t 'models.division.name'%></th>
+    <th><%= t 'models.division.description'%></th>
+    <th><%= t 'models.division.teams_names'%></th>
+    <th><%= t 'models.division.manager'%></th>
     <th colspan="3"></th>
   </tr>
   </thead>
@@ -19,9 +19,9 @@
     <td><%= division.description %></td>
     <td><%= division.teams_names %></td>
     <td><%= division.manager %></td>
-    <td><%= link_to 'Show', division %></td>
-    <td><%= link_to 'Edit', edit_division_path(division) %></td>
-    <td><%= link_to 'Destroy', division, method: :delete, data: { confirm: 'Are you sure?'} %></td>
+    <td><%= link_to t('links.show'), division %></td>
+    <td><%= link_to t('links.edit'), edit_division_path(division) %></td>
+    <td><%= link_to t('links.destroy'), division, method: :delete, data: { confirm: 'Are you sure?'} %></td>
   </tr>
 
   <%end%>
@@ -32,4 +32,4 @@
 <br>
 
 
-<%= link_to "New division", new_division_path, class:"btn btn-secondary" %>
+<%= link_to t('links.new division'), new_division_path, class:"btn btn-secondary" %>

@@ -1,9 +1,9 @@
-<h1>New employee</h1>
+<h1><%= t 'models.employee.New employee', default: 'New employee'%></h1>
 
 <%= render "form", employee: @employee %>
 
 <br>
 
 <div>
-  <%= link_to "Back to employees", employees_path, class:"btn btn-dark"  %>
+  <%= link_to t('links.back to employees'), employees_path, class:"btn btn-dark"  %>
 </div>

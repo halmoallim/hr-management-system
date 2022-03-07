@@ -1,0 +1,159 @@
+# this the English file 
+ar:
+  activerecord:
+    attributes:
+      employee:
+        name: "الإسم"
+        email: "الإيميل"
+        job: "الوظيفة"
+        salary: "الراتب"
+        employment_status: "الحالة"
+        team_id: "الفريق"
+      goal:
+        title: "الإسم"
+        description: "الوصف"
+        start_date: "تاريخ البدأ"
+        finish_date: "تاريخ الإنتهاء"
+        team_name: "إسم الفريق"
+        goal_status: "الحالة"
+        team_id: "الفريق"
+      team:
+        name: "الإسم"
+        description: "الوصف"
+        team_members: " البدأ"
+        team_lead: "الفريق"
+        division_id: "القسم"
+      division:
+        name: "الإسم"
+        description: "الوصف"
+        teams_names: " البدأ"
+        manager: "الفريق"
+      user:
+        email: "الإيميل"
+        password: "كلمة المرور"
+        password_confirmation: "تأكيد كلمة المرور"
+        avatar: "الصورة الشخصية"
+
+
+  helpers:
+    submit:
+      create: "إنشاء"
+      update: "تحديث"
+  
+  devise:
+    registrations:
+      edit:
+        update: "تحديث"
+      new: 
+        sign_up: "إنشاء"
+      
+  
+  links:
+    new employee: "موظف جديد"
+    edit this employee: "تعديل"
+    back to employees: "الرجوع للموظفين"
+    destroy this employee: "حذف الموظف"
+    show this employee: "عرض معلومات الموظف"
+
+    new goal: "هدف جديد"
+    edit this goal: "تعديل"
+    back to goals: "الرجوع للأهداف"
+    destroy this goal: "حذف الهدف"
+    show this goal: "عرض معلومات الهدف"
+
+    new team: "فريق جديد"
+    edit this team: "تعديل"
+    back to teams: "الرجوع للأفرقة"
+    destroy this team: "حذف الفريق"
+    show this team: "عرض معلومات الفريق"
+    
+    new division: "قسم جديد"
+    edit this division: "تعديل"
+    back to divisions: "الرجوع للأقسام"
+    destroy this division: "حذف القسم"
+    show this division: "عرض معلومات القسم"
+
+    sign up: "تسجيل جديد"
+    sign in: "تسجيل الدخول"
+    sign out: "تسجيل الخروج"
+    cancle my account: "حذف حسابي"
+    back: "عودة"
+
+    home: "الرئيسية"
+    show employees: "الموظفين"
+    show teams: "الفرق"
+    show targets: "الأهداف"
+    show division: "الأقسام"
+    sign up: "تسجيل جديد"
+    sign in: "تسجيل الدخول"
+    sign out: "تسجيل الخروج"
+    edit profile: "تعديل الحساب"
+
+
+
+
+    show: "عرض"
+    edit: "تعديل"
+    destroy: "حذف"
+    
+  globals:
+    forms:
+      messages:
+        errors:
+          one error: "يوجد خطأ"
+          multiple errors: "%{count} يوجد العديد من الأخطاء"
+
+        
+  hello: "Hello world"
+  Welcome: "مرحبا"
+  models:
+    employee:
+      Employee list: "قائمة الموظفين"
+      New employee: "موظف جديد"
+      Edit employee: "تحديث معلومات الموظف"
+      name: "الإسم"
+      email: "الإيميل"
+      job: "الوظيفة"
+      salary: "الراتب"
+      employment_status: "الحالة"
+      team_id: "الفريق"
+    goal:
+      goal list: "قائمة الأهداف"
+      New goal: "هدف جديد"
+      Edit goal: "تحديث معلومات الهدف"
+      title: "الإسم"
+      description: "الوصف"
+      start_date: "تاريخ البدأ"
+      finish_date: "تاريخ الإنتهاء"
+      team_name: "إسم الفريق"
+      goal_status: "الحالة"
+      team_id: "الفريق"
+    team:
+      team list: "قائمة الأفرقة"
+      New team: "فريق جديد"
+      Edit team: "تحديث معلومات الفريق"
+      name: "الإسم"
+      description: "الوصف"
+      team_members: " البدأ"
+      team_lead: "الفريق"
+      division_id: "القسم"
+    division:
+      division list: "قائمة الأقسام"
+      New division: "قسم جديد"
+      Edit division: "تحديث معلومات القسم"
+      name: "الإسم"
+      description: "الوصف"
+      teams_names: "الفرق"
+      manager: "المدير"
+    user:
+      Sign Up: "تسجيل جديد"
+      min char: "أقل عدد للحروف"
+      edit user: "تعديل معلومات تسجيل الدخول"
+      empty: "دعها خالية في حال عدم الرغبة بتغيير كلمة المرور"
+      confirm: "ضع كلمة المرور الحالية لتأكيد تغيير كلمة المرور"
+      cancle: "حذف الحساب"
+      log in: "تسجيل الدخول"
+
+
+      
+  
