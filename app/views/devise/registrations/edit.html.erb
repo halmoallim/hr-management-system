@@ -1,47 +1,71 @@
-<h2><%= t 'models.user.edit user'%> </h2>
+<div class="card">
+  <div class="card-header">
+    <h2><%= t 'models.user.edit user'%> </h2>
+  </div>
+  <div class="card-body">
+
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
     <%= image_tag(current_user.avatar) if current_user.avatar.attached? %>
-  <div class="field">
+  <div class="field form-group">
+      <br/>
       <%= f.file_field :avatar%>
   </div>
-
-  <div class="field">
+  <br/>
+  <div class="field form-group">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control", placeholder:"Email" %>
   </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
     <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
   <% end %>
 
-  <div class="field">
+  <div class="field form-group">
     <i><%= t 'models.user.empty'%></i><br />
-    <%= f.password_field :password, autocomplete: "new-password" %>
+    <%= f.password_field :password, autocomplete: "new-password", class:"form-control", placeholder:"Password" %>
     <% if @minimum_password_length %>
       <br />
       <em><%= @minimum_password_length %> <%= t 'models.user.min char'%></em>
     <% end %>
   </div>
 
-  <div class="field">
-    <%= f.password_field :password_confirmation, autocomplete: "new-password", placeholder: true %>
+  <div class="field form-group">
+    <%= f.password_field :password_confirmation, autocomplete: "new-password", placeholder: true, class:"form-control"%>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
    <i><%= t 'models.user.confirm'%></i><br />
-    <%= f.password_field :current_password, autocomplete: "current-password" %>
+    <%= f.password_field :current_password, autocomplete: "current-password", class:"form-control", placeholder:"Current Password"  %>
   </div>
-
+  <br/>
   <div class="actions">
-    <%= f.submit "Update" %>
+    <%= f.submit "Update", class:'btn btn-secondary'  %>
   </div>
 <% end %>
+</div>
+</div>
 
-<h3><%= t 'models.user.cancle'%></h3>
+<br/><br/>
 
-<p><%= button_to t('links.cancle my account'), registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+<div class="card">
+  <div class="card-header">
+    <h3><%= t 'models.user.cancle'%></h3>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Unhappy?</h5>
+    <p class="card-text"><%= button_to t('links.cancle my account'), registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class:'btn btn-danger' %></p>
 
-<%= link_to t('links.back'), :back %>
+  </div>
+</div>
+
+
+
+
+<br/>
+
+
+
+<%= link_to t('links.back'), :back,class:'btn btn-secondary' %>
