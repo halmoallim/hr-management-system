@@ -1,0 +1,25 @@
+<% if user_signed_in? %>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<ul class="nav flex-column">
+  
+        <li class="nav-item">
+        <%= link_to t('links.employees'), employees_path, class:"nav-link"%>
+        </li>
+        <li class="nav-item">
+        <%= link_to t('links.teams'), teams_path, class:"nav-link"%>
+        </li>
+
+        <li class="nav-item">
+        <%= link_to t('links.targets'), goals_path, class:"nav-link"%>
+        </li>
+
+        <li class="nav-item">
+        <%= link_to t('links.division'), divisions_path, class:"nav-link"%>
+        </li>
+</ul>
+
+</div>
+<nav>
+<% end %>

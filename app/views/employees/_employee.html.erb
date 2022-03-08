@@ -1,31 +1,31 @@
 <div id="<%= dom_id employee %>">
   <p>
-    <strong>Name:</strong>
+    <strong><%= t 'models.employee.name', default: 'Name'%>:</strong>
     <%= employee.name %>
   </p>
 
   <p>
-    <strong>Email:</strong>
+    <strong><%= t 'models.employee.email'%>:</strong>
     <%= employee.email %>
   </p>
 
   <p>
-    <strong>Job:</strong>
+    <strong><%= t 'models.employee.job'%>:</strong>
     <%= employee.job %>
   </p>
 
   <p>
-    <strong>Salary:</strong>
+    <strong><%= t 'models.employee.salary'%>:</strong>
     <%= employee.salary %>
   </p>
 
   <p>
-    <strong>Employment status:</strong>
+    <strong><%= t 'models.employee.employment_status'%>:</strong>
     <%= employee.employment_status %>
   </p>
 
   <p>
-    <strong>Team Id:</strong>
+    <strong><%= t 'models.employee.team_id'%>:</strong>
     <%= employee.team_id %>
   </p>
 
