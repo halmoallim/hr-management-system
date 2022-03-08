@@ -1,24 +1,32 @@
-# HR-Managment-System
+# HR-Management-System
 
 
-* Supporting the arabic language for the website
+* This feature is to make the UI like the mockup given and using bootstrap framework 
 
 
-# Screenshots
-[![Screen-Shot-2022-03-06-at-5-49-18-PM.png](https://i.postimg.cc/kgYnwSPp/Screen-Shot-2022-03-06-at-5-49-18-PM.png)](https://postimg.cc/sMSdgvXY)
+# Video
 
-[![Screen-Shot-2022-03-06-at-5-49-25-PM.png](https://i.postimg.cc/8PtDPvcz/Screen-Shot-2022-03-06-at-5-49-25-PM.png)](https://postimg.cc/TpLBtpnz)
+this video include the following:
 
-[![Screen-Shot-2022-03-06-at-5-49-32-PM.png](https://i.postimg.cc/Bnz02GxW/Screen-Shot-2022-03-06-at-5-49-32-PM.png)](https://postimg.cc/DS1HKHj5)
+* Go over every page
+* sign up a new user
+* log in with the registered user 
+* edit registered user 
+* delete the reregistered user 
+* adding a new employee
+* adding a new team
+* adding a new target 
+* adding a new division
+* deleting an employee
+* deleting a team
+* deleting a target 
+* deleting a division 
+* updating an employee
+* updating an team
+* updating a target 
+* updating a division
+* deleting the registed user 
+* changing user avatar
 
-[![Screen-Shot-2022-03-06-at-5-49-55-PM.png](https://i.postimg.cc/SK9w8YS8/Screen-Shot-2022-03-06-at-5-49-55-PM.png)](https://postimg.cc/bGzCfJ2N)
-
-[![Screen-Shot-2022-03-06-at-5-49-47-PM.png](https://i.postimg.cc/7YLd9WPq/Screen-Shot-2022-03-06-at-5-49-47-PM.png)](https://postimg.cc/4nrWNwh0)
-
-[![Screen-Shot-2022-03-06-at-5-48-53-PM.png](https://i.postimg.cc/C5Ch46wG/Screen-Shot-2022-03-06-at-5-48-53-PM.png)](https://postimg.cc/kR4PJs6G)
-
-[![Screen-Shot-2022-03-06-at-5-49-01-PM.png](https://i.postimg.cc/Y0CnXvHd/Screen-Shot-2022-03-06-at-5-49-01-PM.png)](https://postimg.cc/xJB38Tqm)
-
-[![Screen-Shot-2022-03-06-at-5-57-58-PM.png](https://i.postimg.cc/DzMsLmzr/Screen-Shot-2022-03-06-at-5-57-58-PM.png)](https://postimg.cc/bG1sjykr)
-
-[![Screen-Shot-2022-03-06-at-5-49-38-PM.png](https://i.postimg.cc/SRmFmQp9/Screen-Shot-2022-03-06-at-5-49-38-PM.png)](https://postimg.cc/HcvP2gnW)
+the link for the video:
+https://drive.google.com/file/d/1kEZYvNMbHikvGzSc-VedeTFX7THoh1et/view?usp=sharing
