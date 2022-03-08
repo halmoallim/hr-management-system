@@ -141,6 +141,7 @@ ar:
       division list: "قائمة الأقسام"
       New division: "قسم جديد"
       Edit division: "تحديث معلومات القسم"
+      id: "#"
       name: "الإسم"
       description: "الوصف"
       teams_names: "الفرق"

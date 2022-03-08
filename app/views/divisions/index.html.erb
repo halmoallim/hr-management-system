@@ -4,6 +4,7 @@
 
   <thead class="table-dark">
   <tr>
+    <th><%= t 'models.division.id'%></th>
     <th><%= t 'models.division.name'%></th>
     <th><%= t 'models.division.description'%></th>
     <th><%= t 'models.division.teams_names'%></th>
@@ -15,6 +16,7 @@
   <tbody>
   <% @divisions.each do |division|%>
   <tr>
+    <td><%= division.id %></td>
     <td><%= division.name %></td>
     <td><%= division.description %></td>
     <td><%= division.teams_names %></td>
