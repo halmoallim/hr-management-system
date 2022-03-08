@@ -22,10 +22,23 @@
       <%= render 'home/header' %>
 
       <!-- to put the middle contect in a container-->
-      <div class="container">
+      
+       <br>
+       <br>
+        <div class="row">
         <br>
-       <%= yield %>
-       </div>
+        <br>
+          <div class="col-1">
+            <%= render 'home/sidenav' %>
+          </div>
+            <br>
+          <div class="col-10">
+           
+            <%= yield %>
+          </div>
+        </div>
+       
+       
        <%= render 'home/footer' %>
 
 
