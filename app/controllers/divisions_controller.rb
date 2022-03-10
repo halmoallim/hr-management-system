@@ -49,6 +49,8 @@ class DivisionsController < ApplicationController
 
   # DELETE /divisions/1 or /divisions/1.json
   def destroy
+    
+    Team.destroy(@division.teams_names)
     @division.destroy
 
     respond_to do |format|

@@ -20,11 +20,13 @@
   </div>
 
   <div class="field form-group mb-3" class="form-control">
-    <%= form.select :teams_names,Team.all.pluck(:name),{prompt:'Teams'},{class: "form-control"}%>
+    <%= form.select :teams_names,Team.all.pluck(:name,:id),{prompt:'Teams'},{class: "form-control"}%>
+
   </div>
 
   <div class="field form-group mb-3" class="form-control">
     <%= form.select :manager,Employee.all.pluck(:name),{prompt:'Manager'},{class: "form-control"}%>
+
   </div>
 
 

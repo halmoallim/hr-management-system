@@ -8,5 +8,5 @@ class Division < ApplicationRecord
     
 
     #association
-    has_many :teams, dependent: :nullify
+    has_many :teams, dependent: :destroy
 end
